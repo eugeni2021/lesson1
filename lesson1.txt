@@ -1,0 +1,8 @@
+Lesson1:
+git init
+git add .\.gitignore
+git commit -am "Init commit"
+git branch -M master
+git remote add origin https://github.com/eugeni2021/lesson1.git
+git push -u origin master
+git checkout -b development
