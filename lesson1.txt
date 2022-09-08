@@ -16,3 +16,5 @@ git status
 git log
 git commit -am "Changes2 in file lesson1.txt"
 git tag build/0.0.2
+git commit -am "Changes3 in file lesson1.txt"
+git tag build/0.0.3
