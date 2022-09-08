@@ -14,3 +14,5 @@ git commit -am "Changes1 in file lesson1.txt"
 git tag build/0.0.1
 git status
 git log
+git commit -am "Changes2 in file lesson1.txt"
+git tag build/0.0.2
