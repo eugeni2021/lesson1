@@ -1,0 +1,20 @@
+Lesson1:
+git init
+git add .\.gitignore
+git commit -am "Init commit"
+git branch -M master
+git remote add origin https://github.com/eugeni2021/lesson1.git
+git push -u origin master
+git checkout -b development
+git push --set-upstream origin development
+git checkout -b yevhen_borodavko/01_git
+git add .\lesson1.txt
+git commit -am "Added new file lesson1.txt"
+git commit -am "Changes1 in file lesson1.txt"
+git tag build/0.0.1
+git status
+git log
+git commit -am "Changes2 in file lesson1.txt"
+git tag build/0.0.2
+git commit -am "Changes3 in file lesson1.txt"
+git tag build/0.0.3
